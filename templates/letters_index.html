@@ -1,0 +1,10 @@
+<!-- templates/playlists_index.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    {% for letter in letters %}
+        <h2>{{ letter.title }}</h2>
+        <small>{{ letter.description }}</small>
+    {% endfor %}
+{% endblock %}
