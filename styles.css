@@ -8,11 +8,6 @@ body {
     background-color: #F7B9AB;
 }
 
-/* this part prevents the margins on the headings from causing problems */
-nav, main > section {
-    overflow: auto;
-}
-
 /* this part will give each section a min height that is the height of the window */
 main > section {
     min-height: 100vh;
