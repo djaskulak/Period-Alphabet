@@ -19,3 +19,4 @@ In terminal enter the following: `pip install -r requirements.txt`
 - Open in development mode:<br>
 `export FLASK_ENV=development; flask run`
 - Open browser to `localhost:5000`
+- To exit the flask server, use CTRL-C
