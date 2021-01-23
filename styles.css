@@ -1,11 +1,10 @@
 body {
-    /* choose a font! */
-    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-    font-weight: 100;
+    font-family: "DM Serif Display";
+    font-weight: normal;
+    font-style: normal;
+    color: #777; 
 
-    background-color: #5A7D8B;
-
-    margin: 0;
+    margin:0;
 }
 
 /* this part prevents the margins on the headings from causing problems */
