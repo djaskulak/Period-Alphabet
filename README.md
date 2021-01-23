@@ -18,3 +18,4 @@ In terminal enter the following: `source venv/bin/activate`<br>
 In terminal enter the following: `pip install -r requirements.txt`
 - Open in development mode:<br>
 `export FLASK_ENV=development; flask run`
+- Open browser to `localhost:5000`
