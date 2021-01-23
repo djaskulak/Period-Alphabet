@@ -1,2 +1,5 @@
 venv
+
 __pycache__
+.DS_Store
+>>>>>>> 5052bca0760c4ac321fee5754dc8d9b1bb645a01
