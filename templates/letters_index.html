@@ -4,9 +4,16 @@
 {% block content %}
     <div class="container">
         <a href="/">Back To Home</a>
-    {% for letter in letters %}
-        <h2><a href='/letters/{{ letter._id }}'>{{ letter.title }}</a></h2>
-        <small>{{ letter.description }}</small>
-    {% endfor %}
+
+        <div class="row">
+            {% for letter in letters %}
+            <div class="col-md-3">
+                <div class="card"><div class="card-body">
+                    <h2><a href='/letters/{{ letter._id }}'>{{ letter.title }}</a></h2>
+                    <small>{{ letter.description }}</small>
+                </div></div>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 {% endblock %}
