@@ -1,6 +1,6 @@
 # Period-Alphabet
 ## What it does:
-TODO: Add description
+The user will be able to click on a Letter card out of the “Period Alpabet” to learn the basics of topics ranging from menstrual products, Contraceptives, feelings & much more!
 ## How To Use:
 - Clone this repo
 - Navigate to the directory
