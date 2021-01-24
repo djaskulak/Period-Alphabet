@@ -13,3 +13,4 @@ when we implement them into the code :-)
     -> stocksnap.io
     -> Don't like those? When you search on Google Images, Press 'Tools',
         then under 'Usage Rights', select 'Creative Commons Licenses'
+        
