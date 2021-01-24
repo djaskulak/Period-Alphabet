@@ -2,9 +2,11 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    
+    <div class="container">
+        <a href="/">Back To Home</a>
     {% for letter in letters %}
-        <h2>{{ letter.title }}</h2>
+        <h2><a href='/letters/{{ letter._id }}'>{{ letter.title }}</a></h2>
         <small>{{ letter.description }}</small>
     {% endfor %}
+    </div>
 {% endblock %}
