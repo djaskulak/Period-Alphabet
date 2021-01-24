@@ -1,6 +1,7 @@
 # Period-Alphabet
+Credit to: https://www.shutterstock.com/g/autumnn for the images!
 ## What it does:
-TODO: Add description
+The Period Alphabet is a site created to fix the Sex Education System for those who experience Menstruation or go through puberty with a uterus! We geared this site toward a younger audience to make going through this process less firghtening nand properly teach basic topics that are associated with getting older (menstruation, sexual intercorse, gender identity, relationships, health, etc.)
 ## How To Use:
 - Clone this repo
 - Navigate to the directory
