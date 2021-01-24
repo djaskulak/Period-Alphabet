@@ -13,9 +13,6 @@ main > section {
     min-height: 100vh;
 }
 
-/* give each section a different background color 
-the id names on each section are different, so this is how you make attributes 
-for just that specific section */
 #nav {
     display: flex;
     justify-content: space-between;
@@ -56,19 +53,15 @@ nav ul a:hover {
 
 }
 
-#banner > div {
-    display: flex;
-    justify-content: center;
-    width: 75%;
-    margin: auto;
-}
-
 #banner section {
     color: #000;
 
     background-color: rgba(255, 255, 255, 0.65);
-    padding: 2em;
+    padding: 60px;
 
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
     margin: auto;
 
     box-shadow: 0 0 20px #000;
@@ -79,7 +72,8 @@ nav ul a:hover {
 }
 
 #banner h2 {
-    font-size: 4em;
+    font-size: 2em;
+    font-family: "Bungee Shade";
     text-align: center;
 
     margin: 0 0 1rem 0;
@@ -89,18 +83,6 @@ nav ul a:hover {
     text-decoration: none;
 }
 
-#banner > div > div:nth-child(1) {
-    flex: 3;
-}
-
-#banner > div > div:nth-child(2) {
-    flex: 2;
-}
-
-#banner > div img {
-    width: 100%;
-    height: 90%;
-}
 
 #alphabet ul {
     list-style: none;
