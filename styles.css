@@ -56,13 +56,11 @@ nav ul a:hover {
 #banner section {
     color: #000;
 
-    background-color: rgba(255, 255, 255, 0.65);
-    padding: 60px;
-
+    margin: 0;
+    padding: 0;
     display: flex;
-    justify-content: space-between;
-    width: 75%;
-    margin: auto;
+    justify-content: center;
+    align-items: baseline;
 
     box-shadow: 0 0 20px #000;
 }
@@ -76,6 +74,8 @@ nav ul a:hover {
     font-family: "Bungee Shade";
     text-align: center;
 
+    color: #3a3a3a;
+
     margin: 0 0 1rem 0;
 }
 
@@ -83,6 +83,46 @@ nav ul a:hover {
     text-decoration: none;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+.image {
+    flex-basis: 40%;
+}
+
+.text {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0 0 1rem 0;
+    color: #3a3a3a;
+    align-items: center;
+}
+
+.text p{
+    font-family: "Roboto";
+    text-align: center;
+}
+
+form button {
+    width: auto;
+    font-size: 1em;
+    font-family: "Bungee";
+    margin: 1em;
+    align-self: flex-end;
+    padding: 0.5em 1em;
+    background-color: rgba(255, 255, 255, 0.65);
+    color: #000;
+    border: none;
+    border-radius: 8px;
+}
+
+form button:hover {
+    box-shadow: 0 0 20px #000;
+}
 
 #alphabet ul {
     list-style: none;
