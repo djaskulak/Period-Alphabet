@@ -16,7 +16,7 @@ main > section {
 /* give each section a different background color 
 the id names on each section are different, so this is how you make attributes 
 for just that specific section */
-#nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
