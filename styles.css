@@ -13,9 +13,6 @@ main > section {
     min-height: 100vh;
 }
 
-/* give each section a different background color 
-the id names on each section are different, so this is how you make attributes 
-for just that specific section */
 #nav {
     display: flex;
     justify-content: space-between;
@@ -56,6 +53,37 @@ nav ul a:hover {
 
 }
 
+#banner section {
+    color: #000;
+
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 60px;
+
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+
+    box-shadow: 0 0 20px #000;
+}
+
+#banner section:hover {
+    background-color: #eee;
+}
+
+#banner h2 {
+    font-size: 2em;
+    font-family: "Bungee Shade";
+    text-align: center;
+
+    margin: 0 0 1rem 0;
+}
+
+#banner a {
+    text-decoration: none;
+}
+
+
 #alphabet ul {
     list-style: none;
     margin: 0;
@@ -94,5 +122,84 @@ nav ul a:hover {
 .card h3, .card p {
     margin: 1rem;
     display: inline;
+    position: relative;
     
+}
+
+#contact {
+    font-family: "Bungee";
+
+    color: #3a3a3a;
+
+    background-color: #F7B9AB;
+
+    background-image: url(images/flwr-bg.png);
+
+    background-attachment: fixed;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 7em;
+}
+
+#contact > form {
+    display: flex;
+}
+
+#contact > form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin 1em 0;
+}
+
+label span {
+    margin: 1em 0;
+}
+
+input, textarea {
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 0.75em;
+    margin: 0 2em 0 0;
+    width: 20em;
+    font-size: 1em;
+
+    background-color: rgba(255, 255, 255, 0.65);
+}
+
+textarea {
+    height: 9em;
+    margin: 0 0 0 0;
+}
+
+form button {
+    width: auto;
+    font-size: 1em;
+    margin: 1em;
+    align-self: flex-end;
+    padding: 0.5em 1em;
+    background-color: rgba(255, 255, 255, 0.65);
+    color: #000;
+    border: none;
+    border-radius: 8px;
+}
+
+form button:hover {
+    box-shadow: 0 0 20px #000;
 }
