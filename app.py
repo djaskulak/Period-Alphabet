@@ -13,13 +13,13 @@ client = MongoClient(DB_URI)
 db = client.get_database('generaldb')
 letters = db.periodalpha
 
+# @app.route('/')
+# def index():
+#     """Return homepage."""
+#     return render_template('home.html', msg='Welcome to Period Alphabet')
+
+
 @app.route('/')
-def index():
-    """Return homepage."""
-    return render_template('home.html', msg='Welcome to Period Alphabet')
-
-
-@app.route('/letters')
 def letters_index():
     """ Show all the letters of the Period Alphabet """
     return render_template('letters_index.html', letters=letters.find())

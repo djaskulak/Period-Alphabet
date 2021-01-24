@@ -2,10 +2,13 @@
 
 {% block content %}
 <div class="ml-5">
-    <a href="/letters">Back to Alphabet</a>
+    <a href="/">Back to Alphabet</a>
     <div class="container">
-        <h1>{{ letter.title }}</h1>
-        <h2>{{ letter.description }}</h2>
+        <div class="card"><div class="card-body">
+            <h1>{{ letter.title }}</h1>
+            <h2>{{ letter.description }}</h2>
+        </div></div>
     </div>
+    {% include 'partials/comment_form.html' %}
 </div>
 {% endblock %}
