@@ -124,6 +124,21 @@ form button:hover {
     box-shadow: 0 0 20px #000;
 }
 
+#intro {
+    background-color: #517A65;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+#intro h4 {
+    font-family: "Bungee Shade";
+    font-size: 3em;
+    color: #F7B9AB;
+
+}
+
 #alphabet ul {
     list-style: none;
     margin: 0;
