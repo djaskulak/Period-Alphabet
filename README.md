@@ -1,7 +1,11 @@
 # Period-Alphabet
 Credit to: https://www.shutterstock.com/g/autumnn for the images!
 ## What it does:
+<<<<<<< HEAD
+The user will be able to click on a Letter card out of the “Period Alpabet” to learn the basics of topics ranging from menstrual products, Contraceptives, feelings & much more!
+=======
 The Period Alphabet is a site created to improve the Sex Education System for those who go through puberty with a uterus! We geared this site toward a younger audience to make going through this process less frightening and properly teach basic topics that are associated with getting older (menstruation, sexual intercorse, gender identity, relationships, health, etc.)
+>>>>>>> 2f8963598afce337f462c591f117086c4bf52b2b
 ## How To Use:
 - Clone this repo
 - Navigate to the directory
