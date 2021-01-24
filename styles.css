@@ -56,6 +56,52 @@ nav ul a:hover {
 
 }
 
+#banner > div {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+#banner section {
+    color: #000;
+
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 2em;
+
+    margin: auto;
+
+    box-shadow: 0 0 20px #000;
+}
+
+#banner section:hover {
+    background-color: #eee;
+}
+
+#banner h2 {
+    font-size: 4em;
+    text-align: center;
+
+    margin: 0 0 1rem 0;
+}
+
+#banner a {
+    text-decoration: none;
+}
+
+#banner > div > div:nth-child(1) {
+    flex: 3;
+}
+
+#banner > div > div:nth-child(2) {
+    flex: 2;
+}
+
+#banner > div img {
+    width: 100%;
+    height: 90%;
+}
+
 #alphabet ul {
     list-style: none;
     margin: 0;
@@ -94,22 +140,32 @@ nav ul a:hover {
 .card h3, .card p {
     margin: 1rem;
     display: inline;
+    position: relative;
+    
 }
 
 #contact {
     font-family: "Bungee";
 
-    color: #3a3a3a
+    color: #3a3a3a;
 
-    background-image: url(images/footer-bg.png);
     background-color: #F7B9AB;
 
+    background-image: url(images/flwr-bg.png);
+
     background-attachment: fixed;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    padding: 7em;
 }
 
 #contact > form {
