@@ -21,7 +21,7 @@ In terminal enter the following: `source venv/bin/activate`<br>
 `venv\Scripts\activate`
 - Install the requirements
 In terminal enter the following: `pip install -r requirements.txt`
-- Contact (MackRoe)[https://github.com/MackRoe] for .env variables (database won't function if you skip this step)
+- Contact [MackRoe](https://github.com/MackRoe) for .env variables (database won't function if you skip this step)
 - Open in development mode:<br>
 `export FLASK_ENV=development; flask run`
 - Open browser to `localhost:5000`
