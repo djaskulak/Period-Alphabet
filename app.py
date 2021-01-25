@@ -28,14 +28,21 @@ def letters_index():
 
 @app.route('/letters/<letter_id>')
 def one_letter(letter_id):
-    ''' Show one letter '''
+    ''' Show one letter and its comments '''
     letter = letters.find_one({'_id': ObjectId(letter_id)})
-    return render_template('one_letter.html', letter=letter)
+    these_comments = comments.find({'letter_id': ObjectId(letter_id)})
+    return render_template('one_letter.html', letter=letter, comments=these_comments)
 
 ########## COMMENT ROUTES ##########
 @app.route('/comments', methods=['POST'])
 def comments_new():
     ''' Add a new comment '''
+    comment = {
+        'username': request.form.get('username'),
+        'title': request.form.get('title'),
+        'content': request.form.get('content')
+    }
+    comments.insert_one(comment)
     return redirect(url_for('one_letter', letter_id=request.form.get('letter_id')))
 
 if __name__ == '__main__':

@@ -4,6 +4,16 @@
     <input type='hidden' value='{{ letter._id }}' name='letter_id'/>
     <fieldset>
         <legend>Add a Comment</legend>
+        <!-- USER -->
+        <div class='form-group'>
+            <label for='comment-username'>Name</label><br>
+            <input class='form-control'
+                id='comment-username'
+                type='text'
+                name='username'
+                placeholder='Name'/>
+        </div>
+
         <!-- TITLE -->
         <div class='form-group'>
             <label for='comment-title'>Title</label><br>

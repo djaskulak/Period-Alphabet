@@ -82,7 +82,7 @@ nav ul a:hover {
     width: 100%;
 }
 
-.card h3 {
+.card .card-body h3 {
     font-size: 5em;
     font-family: "Bungee Shade";
 }

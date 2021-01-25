@@ -1,0 +1,8 @@
+{% for comment in comments %}
+    <div class='card'>
+        <div class='card-block'>
+            <h4 class='card-title'>{{ comment.title }}</h4>
+            <p class='card-text'>{{ comment.content }}</p>
+        </div>
+    </div>
+{% endfor %}

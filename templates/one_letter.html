@@ -5,10 +5,11 @@
     <a href="/">Back to Alphabet</a>
     <div class="container">
         <div class="card"><div class="card-body">
-            <h1>{{ letter.title }}</h1>
-            <h2>{{ letter.description }}</h2>
+            <h3>{{ letter.title }}</h3>
+            {{ letter.description }}
         </div></div>
     </div>
     {% include 'partials/comment_form.html' %}
+    {% include 'partials/comment.html' %}
 </div>
 {% endblock %}

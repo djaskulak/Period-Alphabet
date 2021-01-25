@@ -1,0 +1,16 @@
+    This folder is for images for the whole project!
+
+    PLEASE be specific with image names you put in here to make it easier for 
+when we implement them into the code :-)
+
+    GREAT places for images that are free of copyright to use are:
+    -> unsplash.com
+    -> pixabay.com
+    -> burst.shopify.com
+    -> pexels.com
+    -> freeimages.com
+    -> kaboompics.com
+    -> stocksnap.io
+    -> Don't like those? When you search on Google Images, Press 'Tools',
+        then under 'Usage Rights', select 'Creative Commons Licenses'
+        
