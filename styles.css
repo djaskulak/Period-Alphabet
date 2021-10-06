@@ -92,12 +92,12 @@ nav ul a:hover {
 .hola {
   width: 1200px;
   margin-top:19px;
- border-bottom: 2px dotted; 
+  border-bottom: 2px dotted; 
   border-style: dotted;
   border-color:purple;
   border-width: thick;
   text-align: center;
-  }
+}
 
 .image {
     flex-basis: 40%;
